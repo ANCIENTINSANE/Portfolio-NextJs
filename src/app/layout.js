@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <title>Tejaswini Dev</title>
-        {/* <link rel="icon" href="/images/hero-image.ico" /> */}
+        <link rel="icon" href="/images/hero-image.ico" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
