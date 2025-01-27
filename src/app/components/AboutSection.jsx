@@ -9,11 +9,16 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
-        <li>React</li>
-        <li>JavaScript</li>
+        <li>React.js</li>
+        <li>Node.js</li>
+        <li>Express.js</li>
+        <li>MongoDB</li>
+        <li>Redux ToolKit</li>
+        <li>JavaScript ES6+</li>
         <li>TailWindCSS</li>
         <li>BootStrap 5</li>
-        <li>Next.Js</li>
+        <li>Next.js</li>
+        <li>GIT Version Controlling</li>
       </ul>
     ),
   },
@@ -33,8 +38,8 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
+        <li>Certified MERN STACK Developer(Quality Thoughts Technologies)</li>
         <li>Full Stack Development with MongoDB Intern</li>
-        <li>MERN STACK(Currently Pursuing)</li>
       </ul>
     ),
   },
@@ -57,7 +62,7 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          I am a Frontend React.js developer with a passion for creating interactive and responsive web applications. I have experience working with JavaScript, React, Redux, HTML, CSS, and Git. I am a quick learner and always looking to expand my knowledge and skill set. I am a team player and excited to work with others to create amazing applications.
+          I am a Full Stack Developer specializing in the MERN stack (MongoDB, Express.js, React, Node.js). With a passion for crafting interactive and responsive web applications, I bring expertise in JavaScript, React, Redux, HTML, CSS, and Git. I excel at building seamless, end-to-end solutions that connect frontend and backend technologies. A quick learner and team player, I thrive in collaborative environments and love turning ideas into impactful, user-friendly applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
